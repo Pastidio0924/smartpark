@@ -105,6 +105,32 @@ The application exposes the following REST API endpoints:
 See the `Postman Collection.json` file for a pre-configured Postman collection to test the API endpoints. Or you can create request manually by following the above guide.
 In general, when testing with Postman, remember to send a request body in JSON format to the routes with method `Post` and `Put`.
 Then, observe the HTTP response status code and response body carefully.
+Open Postman: Launch the Postman application.
+
+### Test method with Postman Collection.json
+
+1. Open Postman: Launch the Postman application.
+2. Import Collection:
+    * Click the "Import" button (usually in the top-left corner).
+    * Select "Raw text."
+    * Paste the entire JSON code you provided in my previous answer into the text area.
+    * Click "Import."
+3. Collection Created: A new collection named "SmartPark API" will appear in your Postman workspace.
+4. Select a Request: In the SmartPark API collection, select the request you want to run (e.g., "Register Parking Lot").
+5. Send the Request: Click the "Send" button.
+6. Analyze the Response:
+    * Status Code: Check the HTTP status code.
+        * 200 OK: Success (for GET, PUT).
+        * 201 Created: Successfully created a new resource.
+        * 204 No Content: Successfully deleted a resource.
+        * 4xx: Client error (e.g., 400 Bad Request, 404 Not Found).
+        * 5xx: Server error.
+    * Response Body: Examine the response body. It might contain:
+        * The created or updated resource (e.g., a ParkingLot object).
+        * A list of resources (e.g., a list of Vehicle objects).
+        * An error message.
+        * Nothing (e.g., for DELETE requests).
+    * Headers: Check the response headers, especially the Content-Type header
 
 ## Assumptions
 
