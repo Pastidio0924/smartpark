@@ -37,14 +37,6 @@
 
     This command will start the Spring Boot application. You should see log messages in the console indicating that the application has started successfully.  The application will typically run on port 8080.
 
-    Alternatively, you can run the packaged JAR file directly:
-
-    ```bash
-    java -jar target/smartpark-0.0.1-SNAPSHOT.jar
-    ```
-
-    (Adjust the filename if your version is different.)
-
 ## Test Instructions
 
 1.  **Run Tests:**
