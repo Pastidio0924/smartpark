@@ -7,7 +7,7 @@
 2.  **Clone the Repository (if applicable):**
 
     ```bash
-    git clone <your_repository_url>
+    git clone https://github.com/DarylPastidio/smartpark
     cd smartpark
     ```
 
